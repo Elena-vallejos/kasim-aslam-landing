@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kasim Aslam logo">
+  <defs>
+    <linearGradient id="g" x1="10" y1="58" x2="54" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B6CFF"/>
+      <stop offset="1" stop-color="#7CE040"/>
+    </linearGradient>
+  </defs>
+  <path d="M28 6h9l21 52H47.5l-4.3-11H24.4l4-10h10.9L32.5 19.6 17 58H6.5z" fill="url(#g)"/>
+  <path d="M46 4l6 0-3 5z" fill="#7CE040"/>
+  <path d="M55 40l5 4-6 1.5z" fill="#7CE040"/>
+</svg>
