@@ -245,7 +245,7 @@
       <label class="sr-only" for="f-email">Email</label>
       <input id="f-email" type="email" placeholder="Email" required>
       <label class="sr-only" for="f-phone">WhatsApp</label>
-      <input id="f-phone" type="tel" placeholder="WhatsApp">
+      <input id="f-phone" type="tel" placeholder="WhatsApp" required>
       <label class="sr-only" for="f-rev">Monthly revenue</label>
       <select id="f-rev">
         <option value="">Monthly revenue</option>
@@ -285,11 +285,27 @@
       <p class="msg">Hey, it’s Kasim (well, the AI version). Ask me about Google Ads, automation or the Accelerator — I’ll give it to you straight.</p>
     </div>
     <div class="chat-quick">
-      <button data-ask="program">What’s the program?</button>
-      <button data-ask="cost">Is it worth it?</button>
-      <button data-ask="ads">Help with Google Ads</button>
-      <button data-ask="hiring">Should I hire?</button>
+      <button type="button" data-ask="program">What’s the program?</button>
+      <button type="button" data-ask="who">Who is it for?</button>
+      <button type="button" data-ask="cost">Is it worth it?</button>
+      <button type="button" data-ask="price">How much does it cost?</button>
+      <button type="button" data-ask="time">How much time do I need?</button>
+      <button type="button" data-ask="tech">I’m not technical</button>
+      <button type="button" data-ask="budget">What ad budget do I need?</button>
+      <button type="button" data-ask="results">When will I see results?</button>
+      <button type="button" data-ask="guarantee">What’s the guarantee?</button>
+      <button type="button" data-ask="bonus">What are the bonuses?</button>
+      <button type="button" data-ask="ads">Help with Google Ads</button>
+      <button type="button" data-ask="ai">How does the AI help?</button>
+      <button type="button" data-ask="hiring">Should I hire?</button>
+      <button type="button" data-ask="seats">How many seats are left?</button>
+      <button type="button" data-ask="apply">How do I sign up?</button>
     </div>
+    <form class="chat-input" id="chat-form">
+      <label class="sr-only" for="chat-text">Ask Kasim a question</label>
+      <input id="chat-text" type="text" placeholder="Type your question…" autocomplete="off">
+      <button type="submit" aria-label="Send"><i data-lucide="send"></i></button>
+    </form>
   </div>
   <button class="chat-btn" data-chat-toggle aria-controls="chat-panel"><span class="dot"></span> Ask Kasim</button>
 </div>
